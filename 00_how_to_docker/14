@@ -1,0 +1,3 @@
+docker network create my-ntw
+docker run -d -p 8080:80 --name lair wordpress
+docker network connect --link spawning-pool:db my-ntw lair
