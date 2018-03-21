@@ -1,1 +1,1 @@
-docker service create --name marines --network overmind --replicas=2 -e OC_USERNAME="marine" -e OC_PASSWD="marine" 42school/marine-squad
+docker service create --name marines --network overmind --replicas=2 -e OC_USERNAME="rabbit" -e OC_PASSWD="rabbit" 42school/marine-squad
